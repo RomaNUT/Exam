@@ -6,8 +6,18 @@
     padding: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
 body {
-    width: 1920px;
     font-family: 'Raleway', sans-serif;
     background: url(../img/header-bg.jpg) grey top no-repeat;
 }
@@ -589,7 +599,7 @@ input[type="search"]:focus {
 
 .video-file {
     object-fit: cover;
-    width: 1902px;
+    width: 100%;
     z-index: 0;
 }
 
@@ -1148,3 +1158,4 @@ input[type="search"]:focus {
 .design {
     width: 320px;
 }
+
